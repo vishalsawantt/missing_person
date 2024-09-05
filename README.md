@@ -11,6 +11,24 @@ The app provides a user-friendly interface with real-time map updates, facilitat
 - **User Interaction:** Contact reporters directly through the app to provide chat functionality.
 - **Firebase Integration:** Utilizes Firebase Realtime Database for efficient data management and Google Maps SDK for map functionality.
 
+## Prerequisites
+This project uses the OpenCV library for image processing and computer vision tasks. To run this project, you will need to set up OpenCV for Android.
+
+- Installing OpenCV
+Add OpenCV Dependency: Include OpenCV as a dependency in your build.gradle file:
+*gradle
+Copy code
+dependencies {
+    implementation 'org.opencv:opencv-android:4.5.5'  // Replace with the version you need
+
+- Usage in the Project
+OpenCV is used in this project for image processing tasks, such as:
+Face Detection: Using OpenCV's pre-trained Haar cascades for real-time face detection.
+
+- Further Reading
+OpenCV for Android Documentation
+OpenCV API Reference
+
 ## Screenshots
 
 1. **Login Activity**, **Create New Account Activity**, and **Home Fragment**  
@@ -70,7 +88,9 @@ The app provides a user-friendly interface with real-time map updates, facilitat
 - **Map Integration:** Google Maps SDK
 - **UI Components:** Activities, Fragments, RecyclerView, and various UI elements for a seamless user experience.
 
+## Download
 
+You can download the latest version of the app from the link below:
 
 ## Acknowledgements
 
