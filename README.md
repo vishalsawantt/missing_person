@@ -12,30 +12,26 @@ The app provides a user-friendly interface with real-time map updates, facilitat
 - **Firebase Integration:** Utilizes Firebase Realtime Database for efficient data management and Google Maps SDK for map functionality.
 
 ## Screenshots
-1.Login Activity
 
+1. **Login Activity**
 
-![Login_Activity](https://github.com/user-attachments/assets/9d77d7ec-2f0a-4773-86b9-8c106e753d31)
+   <img src="https://github.com/user-attachments/assets/9d77d7ec-2f0a-4773-86b9-8c106e753d31" alt="Login_Activity" width="400">
 
-2.Home Fragment
+2. **Home Fragment**
 
+   <img src="https://github.com/user-attachments/assets/48783baa-3039-42a7-9b09-a6b9ca1571ac" alt="Home_Fragment" width="400">
 
-![Home_Fragment](https://github.com/user-attachments/assets/48783baa-3039-42a7-9b09-a6b9ca1571ac)
+3. **Search Fragment**
 
-3.Search Fragment
+   <img src="https://github.com/user-attachments/assets/89f4da66-a94c-4464-af15-de65031ef488" alt="Search_Fragment" width="400">
 
+4. **MyReports Fragment**
 
-![Search_Fragment](https://github.com/user-attachments/assets/89f4da66-a94c-4464-af15-de65031ef488)
+   <img src="https://github.com/user-attachments/assets/f030b6c8-17bc-4455-a8a9-47d6f261c651" alt="Reports_Fragment" width="400">
 
-4.MyReports Fragment
+5. **Profile Fragment**
 
-
-![Reports_Fragment](https://github.com/user-attachments/assets/f030b6c8-17bc-4455-a8a9-47d6f261c651)
-
-5.Profile Frgament
-
-
-![Profile_Fragment](https://github.com/user-attachments/assets/94e91bf6-64fb-4aa4-92dd-8dda9f694eb4)
+   <img src="https://github.com/user-attachments/assets/94e91bf6-64fb-4aa4-92dd-8dda9f694eb4" alt="Profile_Fragment" width="400">
 
 
 
