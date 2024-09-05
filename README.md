@@ -13,25 +13,33 @@ The app provides a user-friendly interface with real-time map updates, facilitat
 
 ## Screenshots
 
-1. **Login Activity**
+1. **Login Activity**, **Create New Account Activity**, and **Home Fragment**  
+   <div style="display: flex; justify-content: space-between;">
+      <img src="https://github.com/user-attachments/assets/9d77d7ec-2f0a-4773-86b9-8c106e753d31" alt="Login_Activity" width="200">
+      <img src="https://github.com/user-attachments/assets/32dd76dc-7123-46f9-a1c3-857b6038aec3" alt="CreateAccount_activity" width="200">
+      <img src="https://github.com/user-attachments/assets/48783baa-3039-42a7-9b09-a6b9ca1571ac" alt="Home_Fragment" width="200">
+   </div>
 
-   <img src="https://github.com/user-attachments/assets/9d77d7ec-2f0a-4773-86b9-8c106e753d31" alt="Login_Activity" width="400">
+2. **Add Report Activity**, **Marker Details Activity**, and **Search Fragment**  
+   <div style="display: flex; justify-content: space-between;">
+      <img src="https://github.com/user-attachments/assets/fa9a9f0b-1d5e-442f-a341-ef4eae55d9f1" alt="FloatingB_addReport_Activity" width="200">
+      <img src="https://github.com/user-attachments/assets/b9d03599-2ccb-4b71-819e-a6909439463f" alt="Markerclick_details" width="200">
+      <img src="https://github.com/user-attachments/assets/bbb131dc-ce01-4eae-b32d-7449153dd60c" alt="Search_Fragment" width="200">
+   </div>
 
-2. **Home Fragment**
+3. **Chat List Fragment**, **Chat Activity**, and **My Reports Fragment**  
+   <div style="display: flex; justify-content: space-between;">
+      <img src="https://github.com/user-attachments/assets/a1540dc9-82e8-43ea-ab43-31759249b3ec" alt="User_Chatlist" width="200">
+      <img src="https://github.com/user-attachments/assets/b6e2a1ff-1bda-4340-98a7-1798a0242aa9" alt="Chat_Activity" width="200">
+      <img src="https://github.com/user-attachments/assets/b2ef805b-ceb7-4522-9e81-a0d9448bfc13" alt="Reports_Fragment" width="200">
+   </div>
 
-   <img src="https://github.com/user-attachments/assets/48783baa-3039-42a7-9b09-a6b9ca1571ac" alt="Home_Fragment" width="400">
+4. **Reports Updated Details Activity** and **Profile Fragment**  
+   <div style="display: flex; justify-content: space-between;">
+      <img src="https://github.com/user-attachments/assets/c7cd556b-8fed-4f37-8c0b-d6e1e6f15c09" alt="Reports_updated_details" width="200">
+      <img src="https://github.com/user-attachments/assets/0906836d-51e5-4a48-92be-77beee2d2ff8" alt="Profile_Fragment" width="200">
+   </div>
 
-3. **Search Fragment**
-
-   <img src="https://github.com/user-attachments/assets/89f4da66-a94c-4464-af15-de65031ef488" alt="Search_Fragment" width="400">
-
-4. **MyReports Fragment**
-
-   <img src="https://github.com/user-attachments/assets/f030b6c8-17bc-4455-a8a9-47d6f261c651" alt="Reports_Fragment" width="400">
-
-5. **Profile Fragment**
-
-   <img src="https://github.com/user-attachments/assets/94e91bf6-64fb-4aa4-92dd-8dda9f694eb4" alt="Profile_Fragment" width="400">
 
 
 
