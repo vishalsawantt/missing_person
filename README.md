@@ -12,12 +12,30 @@ The app provides a user-friendly interface with real-time map updates, facilitat
 - **Firebase Integration:** Utilizes Firebase Realtime Database for efficient data management and Google Maps SDK for map functionality.
 
 ## Screenshots
-
-![Login-page](https://github.com/user-attachments/assets/50f8741f-4a5a-4557-a7a8-69e95e3c189d)
-![Home_Fragment](https://github.com/user-attachments/assets/0b56189b-3a55-4452-bdb9-a358579ebe1f)
+1.Login Activity
 
 
+![Login_Activity](https://github.com/user-attachments/assets/9d77d7ec-2f0a-4773-86b9-8c106e753d31)
 
+2.Home Fragment
+
+
+![Home_Fragment](https://github.com/user-attachments/assets/48783baa-3039-42a7-9b09-a6b9ca1571ac)
+
+3.Search Fragment
+
+
+![Search_Fragment](https://github.com/user-attachments/assets/89f4da66-a94c-4464-af15-de65031ef488)
+
+4.MyReports Fragment
+
+
+![Reports_Fragment](https://github.com/user-attachments/assets/f030b6c8-17bc-4455-a8a9-47d6f261c651)
+
+5.Profile Frgament
+
+
+![Profile_Fragment](https://github.com/user-attachments/assets/94e91bf6-64fb-4aa4-92dd-8dda9f694eb4)
 
 
 
