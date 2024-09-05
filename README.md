@@ -88,10 +88,6 @@ OpenCV API Reference
 - **Map Integration:** Google Maps SDK
 - **UI Components:** Activities, Fragments, RecyclerView, and various UI elements for a seamless user experience.
 
-## Download
-
-You can download the latest version of the app from the link below:
-
 ## Acknowledgements
 
 - [Firebase](https://firebase.google.com/) for Realtime Database and Authentication.
