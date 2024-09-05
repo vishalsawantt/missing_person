@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".DetailsActivity">
+
+    <TextView
+        android:id="@+id/txtname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:hint="Name"
+        android:textSize="20sp"
+        android:gravity="start"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:background="@drawable/textview_background" />
+
+    <TextView
+        android:id="@+id/txtgender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:hint="Gender"
+        android:textSize="20sp"
+        android:gravity="start"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:background="@drawable/textview_background" />
+
+    <TextView
+        android:id="@+id/txtage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:hint="Age"
+        android:textSize="20sp"
+        android:gravity="start"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:background="@drawable/textview_background" />
+
+    <TextView
+        android:id="@+id/txtdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:hint="Date"
+        android:textSize="20sp"
+        android:gravity="start"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:background="@drawable/textview_background" />
+
+    <TextView
+        android:id="@+id/txtlocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:hint="Location"
+        android:textSize="20sp"
+        android:gravity="start"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:background="@drawable/textview_background" />
+
+    <TextView
+        android:id="@+id/txtdescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:hint="Description"
+        android:textSize="20sp"
+        android:gravity="start"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:background="@drawable/textview_background" />
+
+    <TextView
+        android:id="@+id/txtreportno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:hint="Report No."
+        android:textSize="20sp"
+        android:gravity="start"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:background="@drawable/textview_background" />
+
+    <TextView
+        android:id="@+id/txtrelationship"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:hint="Relationship"
+        android:textSize="20sp"
+        android:gravity="start"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:background="@drawable/textview_background" />
+
+    <TextView
+        android:id="@+id/txtreward"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:hint="Reward"
+        android:textSize="20sp"
+        android:gravity="start"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:background="@drawable/textview_background" />
+
+    <TextView
+        android:id="@+id/txtcontact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:hint="Contact"
+        android:textSize="20sp"
+        android:gravity="start"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:background="@drawable/textview_background" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingTop="20dp">
+
+        <Button
+            android:id="@+id/btnseen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:text="Quick Search"
+            android:background="@color/purple_500"
+            android:textColor="@android:color/white"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/btnback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:background="@color/purple_500"
+            android:textColor="@android:color/white"
+            android:padding="10dp"/>
+    </LinearLayout>
+
+</LinearLayout>

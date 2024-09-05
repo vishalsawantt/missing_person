@@ -1,0 +1,112 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:neumorphism="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white"
+    tools:context=".UserDetailsActivity">
+
+    <!-- Your existing MapView -->
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="#CCCCCC"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- ScrollView to wrap the content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+
+        <!-- Vertical LinearLayout to hold all content -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- TextView for User Details label -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Report Details:"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:layout_marginLeft="9dp"
+                android:layout_marginBottom="8dp"/>
+
+            <!-- NeumorphCardView for User Details -->
+            <soup.neumorphism.NeumorphCardView
+                android:id="@+id/neumorphCardViewDetailsFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                neumorphism:neumorph_backgroundColor="@android:color/white"
+                neumorphism:neumorph_shadowColorLight="@color/lightGray"
+                neumorphism:neumorph_shadowColorDark="@color/darkGray"
+                neumorphism:neumorph_shadowElevation="4dp"
+                neumorphism:neumorph_shapeType="flat">
+
+                <TextView
+                    android:id="@+id/textViewDetailsFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="#000000"
+                    android:padding="16dp"
+                    android:background="@android:color/white"
+                    android:hint="User Details" />
+
+            </soup.neumorphism.NeumorphCardView>
+
+            <!-- TextView for Seen Details label -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Updated Location:"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginBottom="8dp"/>
+
+            <!-- NeumorphCardView for Seen Details -->
+            <soup.neumorphism.NeumorphCardView
+                android:id="@+id/neumorphCardViewSeenDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                neumorphism:neumorph_backgroundColor="@android:color/white"
+                neumorphism:neumorph_shadowColorLight="@color/lightGray"
+                neumorphism:neumorph_shadowColorDark="@color/darkGray"
+                neumorphism:neumorph_shadowElevation="4dp"
+                neumorphism:neumorph_shapeType="flat">
+
+                <!-- TextView for Seen Details -->
+                <TextView
+                    android:id="@+id/textViewSeenDetails"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="#000000"
+                    android:padding="16dp"
+                    android:background="@android:color/white"/>
+
+                <!-- LinearLayout to hold dynamic entries -->
+                <LinearLayout
+                    android:id="@+id/linearLayoutEntriesContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="16dp"/>
+
+            </soup.neumorphism.NeumorphCardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
