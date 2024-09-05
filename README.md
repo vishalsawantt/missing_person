@@ -13,11 +13,11 @@ The app provides a user-friendly interface with real-time map updates, facilitat
 
 ## Screenshots
 
-![Home Screen](screenshots/home_screenshot.png)
 ![Login-page](https://github.com/user-attachments/assets/50f8741f-4a5a-4557-a7a8-69e95e3c189d)
+![Home_Fragment](https://github.com/user-attachments/assets/0b56189b-3a55-4452-bdb9-a358579ebe1f)
 
-![Search Screen](screenshots/search_screenshot.png)
-![Report Screen](screenshots/report_screenshot.png)
+
+
 
 
 
